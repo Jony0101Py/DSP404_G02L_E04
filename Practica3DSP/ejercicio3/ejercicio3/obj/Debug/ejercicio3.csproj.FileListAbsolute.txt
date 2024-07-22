@@ -1,0 +1,10 @@
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\ejercicio3\ejercicio3\bin\Debug\ejercicio3.exe.config
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\ejercicio3\ejercicio3\bin\Debug\ejercicio3.exe
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\ejercicio3\ejercicio3\bin\Debug\ejercicio3.pdb
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\ejercicio3\ejercicio3\obj\Debug\ejercicio3.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\ejercicio3\ejercicio3\obj\Debug\ejercicio3.Form1.resources
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\ejercicio3\ejercicio3\obj\Debug\ejercicio3.Properties.Resources.resources
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\ejercicio3\ejercicio3\obj\Debug\ejercicio3.csproj.GenerateResource.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\ejercicio3\ejercicio3\obj\Debug\ejercicio3.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\ejercicio3\ejercicio3\obj\Debug\ejercicio3.exe
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\ejercicio3\ejercicio3\obj\Debug\ejercicio3.pdb
