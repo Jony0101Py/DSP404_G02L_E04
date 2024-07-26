@@ -1,0 +1,10 @@
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\EjercicioDiscusion-2\EjercicioDiscusion-2\bin\Debug\EjercicioDiscusion-2.exe.config
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\EjercicioDiscusion-2\EjercicioDiscusion-2\bin\Debug\EjercicioDiscusion-2.exe
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\EjercicioDiscusion-2\EjercicioDiscusion-2\bin\Debug\EjercicioDiscusion-2.pdb
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\EjercicioDiscusion-2\EjercicioDiscusion-2\obj\Debug\EjercicioDiscusion-2.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\EjercicioDiscusion-2\EjercicioDiscusion-2\obj\Debug\EjercicioDiscusion_2.Form1.resources
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\EjercicioDiscusion-2\EjercicioDiscusion-2\obj\Debug\EjercicioDiscusion_2.Properties.Resources.resources
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\EjercicioDiscusion-2\EjercicioDiscusion-2\obj\Debug\EjercicioDiscusion-2.csproj.GenerateResource.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\EjercicioDiscusion-2\EjercicioDiscusion-2\obj\Debug\EjercicioDiscusion-2.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\EjercicioDiscusion-2\EjercicioDiscusion-2\obj\Debug\EjercicioDiscusion-2.exe
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\EjercicioDiscusion-2\EjercicioDiscusion-2\obj\Debug\EjercicioDiscusion-2.pdb
