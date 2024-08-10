@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\Guia_1\\SR230847_Guia_1\\Ejercicio_Complementario_01\\",
+  "WorkspaceRootPath": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\DSP404_G02_E04\\SR230847_Guia_1\\SR230847_Guia_1\\Ejercicio_Complementario_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\Guia_1\\SR230847_Guia_1\\Ejercicio_Complementario_01\\Ejercicio_Complementario_01\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ejercicio_Complementario_01\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{45F55DEE-598D-433B-A5F2-A86393CF9511}|Ejercicio_Complementario_01\\Ejercicio_Complementario_01.csproj|c:\\users\\jonat\\onedrive\\escritorio\\dsp guias a realizar\\dsp404_g02_e04\\sr230847_guia_1\\sr230847_guia_1\\ejercicio_complementario_01\\ejercicio_complementario_01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45F55DEE-598D-433B-A5F2-A86393CF9511}|Ejercicio_Complementario_01\\Ejercicio_Complementario_01.csproj|solutionrelative:ejercicio_complementario_01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\Guia_1\\SR230847_Guia_1\\Ejercicio_Complementario_01\\Ejercicio_Complementario_01\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\DSP404_G02_E04\\SR230847_Guia_1\\SR230847_Guia_1\\Ejercicio_Complementario_01\\Ejercicio_Complementario_01\\Form1.cs",
               "RelativeDocumentMoniker": "Ejercicio_Complementario_01\\Form1.cs",
-              "ToolTip": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\Guia_1\\SR230847_Guia_1\\Ejercicio_Complementario_01\\Ejercicio_Complementario_01\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\DSP404_G02_E04\\SR230847_Guia_1\\SR230847_Guia_1\\Ejercicio_Complementario_01\\Ejercicio_Complementario_01\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Ejercicio_Complementario_01\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T07:43:07.873Z",

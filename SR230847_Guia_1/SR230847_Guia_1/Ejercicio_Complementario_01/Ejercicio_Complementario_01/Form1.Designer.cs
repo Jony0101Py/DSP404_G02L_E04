@@ -55,7 +55,7 @@
             // lblresultado
             // 
             this.lblresultado.AutoSize = true;
-            this.lblresultado.Location = new System.Drawing.Point(149, 286);
+            this.lblresultado.Location = new System.Drawing.Point(205, 27);
             this.lblresultado.Name = "lblresultado";
             this.lblresultado.Size = new System.Drawing.Size(55, 13);
             this.lblresultado.TabIndex = 2;
@@ -63,7 +63,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(242, 50);
+            this.textBox1.Location = new System.Drawing.Point(208, 118);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(52, 20);
             this.textBox1.TabIndex = 3;
