@@ -1,0 +1,12 @@
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\Ejemplo1\Ejemplo1\bin\Debug\Ejemplo1.exe.config
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\Ejemplo1\Ejemplo1\bin\Debug\Ejemplo1.exe
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\Ejemplo1\Ejemplo1\bin\Debug\Ejemplo1.pdb
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.Form1.resources
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.Properties.Resources.resources
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.csproj.GenerateResource.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.exe
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.pdb
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.Form2.resources
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\Ejemplo1\Ejemplo1\obj\Debug\Ejemplo1.Form3.resources

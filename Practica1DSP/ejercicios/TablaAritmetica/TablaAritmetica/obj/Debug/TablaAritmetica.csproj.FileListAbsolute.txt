@@ -1,0 +1,10 @@
+C:\Users\MINEDUCYT\source\repos\TablaAritmetica\TablaAritmetica\bin\Debug\TablaAritmetica.exe.config
+C:\Users\MINEDUCYT\source\repos\TablaAritmetica\TablaAritmetica\bin\Debug\TablaAritmetica.exe
+C:\Users\MINEDUCYT\source\repos\TablaAritmetica\TablaAritmetica\bin\Debug\TablaAritmetica.pdb
+C:\Users\MINEDUCYT\source\repos\TablaAritmetica\TablaAritmetica\obj\Debug\TablaAritmetica.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\source\repos\TablaAritmetica\TablaAritmetica\obj\Debug\TablaAritmetica.Form1.resources
+C:\Users\MINEDUCYT\source\repos\TablaAritmetica\TablaAritmetica\obj\Debug\TablaAritmetica.Properties.Resources.resources
+C:\Users\MINEDUCYT\source\repos\TablaAritmetica\TablaAritmetica\obj\Debug\TablaAritmetica.csproj.GenerateResource.cache
+C:\Users\MINEDUCYT\source\repos\TablaAritmetica\TablaAritmetica\obj\Debug\TablaAritmetica.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\source\repos\TablaAritmetica\TablaAritmetica\obj\Debug\TablaAritmetica.exe
+C:\Users\MINEDUCYT\source\repos\TablaAritmetica\TablaAritmetica\obj\Debug\TablaAritmetica.pdb
