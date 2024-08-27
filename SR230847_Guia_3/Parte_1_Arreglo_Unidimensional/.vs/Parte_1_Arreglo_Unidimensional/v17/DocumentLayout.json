@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\Guia_3\\Parte_1_Arreglo_Unidimensional\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{355E1192-6EDD-472A-ADB9-0A3B8863C060}|Parte_1_Arreglo_Unidimensional\\Parte_1_Arreglo_Unidimensional.csproj|C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\Guia_3\\Parte_1_Arreglo_Unidimensional\\parte_1_arreglo_unidimensional\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{355E1192-6EDD-472A-ADB9-0A3B8863C060}|Parte_1_Arreglo_Unidimensional\\Parte_1_Arreglo_Unidimensional.csproj|solutionrelative:parte_1_arreglo_unidimensional\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355E1192-6EDD-472A-ADB9-0A3B8863C060}|Parte_1_Arreglo_Unidimensional\\Parte_1_Arreglo_Unidimensional.csproj|c:\\users\\jonat\\onedrive\\escritorio\\dsp guias a realizar\\guia_3\\parte_1_arreglo_unidimensional\\parte_1_arreglo_unidimensional\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355E1192-6EDD-472A-ADB9-0A3B8863C060}|Parte_1_Arreglo_Unidimensional\\Parte_1_Arreglo_Unidimensional.csproj|solutionrelative:parte_1_arreglo_unidimensional\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 410,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 762,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\Guia_3\\Parte_1_Arreglo_Unidimensional\\Parte_1_Arreglo_Unidimensional\\Form1.cs",
+              "RelativeDocumentMoniker": "Parte_1_Arreglo_Unidimensional\\Form1.cs",
+              "ToolTip": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\Guia_3\\Parte_1_Arreglo_Unidimensional\\Parte_1_Arreglo_Unidimensional\\Form1.cs",
+              "RelativeToolTip": "Parte_1_Arreglo_Unidimensional\\Form1.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wBMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:31:31.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\Guia_3\\Parte_1_Arreglo_Unidimensional\\Parte_1_Arreglo_Unidimensional\\Form1.cs",
+              "RelativeDocumentMoniker": "Parte_1_Arreglo_Unidimensional\\Form1.cs",
+              "ToolTip": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\Guia_3\\Parte_1_Arreglo_Unidimensional\\Parte_1_Arreglo_Unidimensional\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Parte_1_Arreglo_Unidimensional\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:14:34.575Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 506,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
