@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<<< HEAD:Practica1DSP/ejercicios/TablaAritmetica/TablaAritmetica.sln
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TablaAritmetica", "TablaAritmetica\TablaAritmetica.csproj", "{25F6104A-3FC1-4C77-AA81-8ED90F4AB889}"
+========
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo1", "Ejemplo1\Ejemplo1.csproj", "{DD5BF382-FEBD-4992-B913-CBB97742E724}"
+>>>>>>>> master:SR230847_Guia_1/SR230847_Guia_1/Ejemplos/Ejemplo1.sln
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +15,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<<< HEAD:Practica1DSP/ejercicios/TablaAritmetica/TablaAritmetica.sln
 		{25F6104A-3FC1-4C77-AA81-8ED90F4AB889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{25F6104A-3FC1-4C77-AA81-8ED90F4AB889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25F6104A-3FC1-4C77-AA81-8ED90F4AB889}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25F6104A-3FC1-4C77-AA81-8ED90F4AB889}.Release|Any CPU.Build.0 = Release|Any CPU
+========
+		{DD5BF382-FEBD-4992-B913-CBB97742E724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5BF382-FEBD-4992-B913-CBB97742E724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5BF382-FEBD-4992-B913-CBB97742E724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5BF382-FEBD-4992-B913-CBB97742E724}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>>> master:SR230847_Guia_1/SR230847_Guia_1/Ejemplos/Ejemplo1.sln
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<<< HEAD:Practica1DSP/ejercicios/TablaAritmetica/TablaAritmetica.sln
 		SolutionGuid = {D109B7A1-07AD-4A59-83F3-DB483BE3E7F4}
+========
+		SolutionGuid = {BB6C6EE7-7912-4B1A-9F73-DB3A6627A220}
+>>>>>>>> master:SR230847_Guia_1/SR230847_Guia_1/Ejemplos/Ejemplo1.sln
 	EndGlobalSection
 EndGlobal

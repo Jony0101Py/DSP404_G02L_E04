@@ -8,7 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+<<<<<<<< HEAD:Practica1DSP/ejercicios/TablaAritmetica/TablaAritmetica/Properties/Settings.Designer.cs
 namespace TablaAritmetica.Properties
+========
+namespace Ejemplo1.Properties
+>>>>>>>> master:SR230847_Guia_1/SR230847_Guia_1/Ejemplos/Ejemplo1/Properties/Settings.Designer.cs
 {
 
 

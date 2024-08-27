@@ -8,7 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+<<<<<<<< HEAD:Practica1DSP/ejercicios/TablaAritmetica/TablaAritmetica/Properties/Resources.Designer.cs
 namespace TablaAritmetica.Properties
+========
+namespace Ejemplo1.Properties
+>>>>>>>> master:SR230847_Guia_1/SR230847_Guia_1/Ejemplos/Ejemplo1/Properties/Resources.Designer.cs
 {
 
 
@@ -44,7 +48,11 @@ namespace TablaAritmetica.Properties
             {
                 if ((resourceMan == null))
                 {
+<<<<<<<< HEAD:Practica1DSP/ejercicios/TablaAritmetica/TablaAritmetica/Properties/Resources.Designer.cs
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TablaAritmetica.Properties.Resources", typeof(Resources).Assembly);
+========
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Ejemplo1.Properties.Resources", typeof(Resources).Assembly);
+>>>>>>>> master:SR230847_Guia_1/SR230847_Guia_1/Ejemplos/Ejemplo1/Properties/Resources.Designer.cs
                     resourceMan = temp;
                 }
                 return resourceMan;
