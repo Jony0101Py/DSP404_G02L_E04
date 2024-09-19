@@ -1,0 +1,44 @@
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe.config
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.pdb
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csprojResolveAssemblyReference.cache
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.Form1.resources
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.Properties.Resources.resources
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.GenerateResource.Cache
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.exe
+C:\Users\ReneTT\Downloads\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.pdb
+C:\Users\ReneTT\Documents\b_Ciclo2015-2\DesaAplicSoftwareProp_DSP404\DSP404_Practicas\Guia06_DSP\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe.config
+C:\Users\ReneTT\Documents\b_Ciclo2015-2\DesaAplicSoftwareProp_DSP404\DSP404_Practicas\Guia06_DSP\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.pdb
+E:\disco datos\ciclos\CicloII-2015\DSP\Guias_Labo_C#\Guia06\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe.config
+E:\disco datos\ciclos\CicloII-2015\DSP\Guias_Labo_C#\Guia06\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.pdb
+D:\Ciclo 02\DSP\Lab\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe.config
+D:\Ciclo 02\DSP\Lab\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe
+D:\Ciclo 02\DSP\Lab\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.pdb
+D:\Ciclo 02\DSP\Lab\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csprojAssemblyReference.cache
+D:\Ciclo 02\DSP\Lab\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.Form1.resources
+D:\Ciclo 02\DSP\Lab\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.Properties.Resources.resources
+D:\Ciclo 02\DSP\Lab\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.GenerateResource.cache
+D:\Ciclo 02\DSP\Lab\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.CoreCompileInputs.cache
+D:\Ciclo 02\DSP\Lab\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.exe
+D:\Ciclo 02\DSP\Lab\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.pdb
+C:\Users\alexi\OneDrive\Documentos\Ciclo 02 23\DSP\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe.config
+C:\Users\alexi\OneDrive\Documentos\Ciclo 02 23\DSP\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe
+C:\Users\alexi\OneDrive\Documentos\Ciclo 02 23\DSP\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.pdb
+C:\Users\alexi\OneDrive\Documentos\Ciclo 02 23\DSP\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.AssemblyReference.cache
+C:\Users\alexi\OneDrive\Documentos\Ciclo 02 23\DSP\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexi\OneDrive\Documentos\Ciclo 02 23\DSP\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.Form1.resources
+C:\Users\alexi\OneDrive\Documentos\Ciclo 02 23\DSP\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.Properties.Resources.resources
+C:\Users\alexi\OneDrive\Documentos\Ciclo 02 23\DSP\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.GenerateResource.cache
+C:\Users\alexi\OneDrive\Documentos\Ciclo 02 23\DSP\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\alexi\OneDrive\Documentos\Ciclo 02 23\DSP\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.exe
+C:\Users\alexi\OneDrive\Documentos\Ciclo 02 23\DSP\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.pdb
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_guia_6\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe.config
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_guia_6\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.exe
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_guia_6\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\bin\Debug\Guia6Ejercicio1.pdb
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_guia_6\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_guia_6\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.Form1.resources
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_guia_6\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.Properties.Resources.resources
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_guia_6\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.GenerateResource.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_guia_6\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_guia_6\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.exe
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_guia_6\Semana 8\Guia6Ejercicio1\Guia6Ejercicio1\Guia6Ejercicio1\obj\Debug\Guia6Ejercicio1.pdb
