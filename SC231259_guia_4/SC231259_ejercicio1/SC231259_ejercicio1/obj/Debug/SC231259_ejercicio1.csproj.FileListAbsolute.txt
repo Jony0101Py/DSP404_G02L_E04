@@ -1,0 +1,10 @@
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_ejercicio1\SC231259_ejercicio1\bin\Debug\SC231259_ejercicio1.exe.config
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_ejercicio1\SC231259_ejercicio1\bin\Debug\SC231259_ejercicio1.exe
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_ejercicio1\SC231259_ejercicio1\bin\Debug\SC231259_ejercicio1.pdb
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_ejercicio1\SC231259_ejercicio1\obj\Debug\SC231259_ejercicio1.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_ejercicio1\SC231259_ejercicio1\obj\Debug\SC231259_ejercicio1.frmGuia04ejerc1.resources
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_ejercicio1\SC231259_ejercicio1\obj\Debug\SC231259_ejercicio1.Properties.Resources.resources
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_ejercicio1\SC231259_ejercicio1\obj\Debug\SC231259_ejercicio1.csproj.GenerateResource.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_ejercicio1\SC231259_ejercicio1\obj\Debug\SC231259_ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_ejercicio1\SC231259_ejercicio1\obj\Debug\SC231259_ejercicio1.exe
+C:\Users\MINEDUCYT\Desktop\PROYECTS DSP\SC231259_ejercicio1\SC231259_ejercicio1\obj\Debug\SC231259_ejercicio1.pdb
