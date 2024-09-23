@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "frmGuia04ejerc2/1.0.0": {
+        "runtime": {
+          "frmGuia04ejerc2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "frmGuia04ejerc2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

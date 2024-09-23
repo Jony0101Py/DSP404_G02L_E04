@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\SR230847_Guia_4\\Practica04deLP1\\Practica04deLP1\\Practica04deLP1.csproj",
+      "projectUniqueName": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\DSP404_G02_E04\\SR230847_Guia_4\\Practica04deLP1\\Practica04deLP1\\Practica04deLP1.csproj",
       "projectName": "Practica04deLP1",
-      "projectPath": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\SR230847_Guia_4\\Practica04deLP1\\Practica04deLP1\\Practica04deLP1.csproj",
+      "projectPath": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\DSP404_G02_E04\\SR230847_Guia_4\\Practica04deLP1\\Practica04deLP1\\Practica04deLP1.csproj",
       "packagesPath": "C:\\Users\\Jonat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\SR230847_Guia_4\\Practica04deLP1\\Practica04deLP1\\obj\\",
+      "outputPath": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\DSP404_G02_E04\\SR230847_Guia_4\\Practica04deLP1\\Practica04deLP1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
