@@ -1,0 +1,56 @@
+﻿@model desafio_02_e04.Models.LoginVIewModel
+
+@{
+    ViewBag.Title = "Login";
+    ViewBag.BodyClass = "login-page";
+}
+
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+            <div class="card border-dark">
+                <div class="card-header bg-dark text-white text-center">
+                    <img src="~/Content/Logo_TemperTrap1.png" alt="Logo" class="login-logo" />
+                </div>
+                <div class="card-body">
+                    <!-- Mensaje de error -->
+                    @if (ViewBag.ErrorMessage != null)
+                    {
+                        <div class="alert alert-danger text-center">
+                            @ViewBag.ErrorMessage
+                        </div>
+                    }
+
+                    @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Usuario, htmlAttributes: new { @class = "control-label" })
+                            @Html.TextBoxFor(model => model.Usuario, new { @class = "form-control", placeholder = "Usuario" })
+                            @Html.ValidationMessageFor(model => model.Usuario, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label" })
+                            @Html.PasswordFor(model => model.Password, new { @class = "form-control", placeholder = "Contraseña" })
+                            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-warning text-white">
+                                <span class="spinner-border spinner-border-sm d-none" id="spinner"></span>
+                                Iniciar Sesión
+                            </button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script para el spinner -->
+<script>$('form').on('submit', function() {
+        $('#spinner').removeClass('d-none'); // Muestra el spinner al hacer submit
+    });</script>

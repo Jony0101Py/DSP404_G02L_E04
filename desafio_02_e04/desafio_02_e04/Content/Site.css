@@ -1,0 +1,100 @@
+﻿/* Estilos Generales */
+body {
+    background-color: #f8f9fa; /* Color de fondo claro para el body */
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Barra de Navegación */
+.navbar {
+    background-color: #000000; /* Negro para la barra de navegación */
+}
+
+.navbar-brand img {
+    max-height: 50px; /* Ajusta el tamaño del logo */
+}
+
+.nav-link {
+    color: #f57c00 !important; /* Anaranjado para los enlaces de navegación */
+}
+
+    .nav-link:hover {
+        color: #ff9800 !important; /* Color más claro de anaranjado al pasar el mouse */
+    }
+
+/* Contenido Principal */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Estilo de la Tarjeta de Login */
+.card {
+    border-color: #000000; /* Negro para el borde de la tarjeta */
+}
+
+.card-header {
+    background-color: #000000; /* Negro para el encabezado de la tarjeta */
+    color: #ffffff; /* Blanco para el texto del encabezado */
+}
+
+.card-body {
+    background-color: #ffffff; /* Fondo blanco para el cuerpo de la tarjeta */
+}
+
+.card-header h4 {
+    margin: 0;
+}
+
+/* Estilo de Botones */
+.btn-warning {
+    background-color: #f57c00; /* Anaranjado para el botón */
+    border-color: #f57c00; /* Anaranjado para el borde del botón */
+}
+
+    .btn-warning:hover {
+        background-color: #ff9800; /* Color más claro de anaranjado al pasar el mouse */
+        border-color: #ff9800; /* Color más claro de anaranjado para el borde */
+    }
+
+/* Ajuste de Formularios */
+input,
+select,
+textarea {
+    max-width: 100%; /* Hace que los inputs se ajusten al ancho disponible */
+    width: 100%; /* Asegura que los inputs ocupen el ancho completo del contenedor */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+}
+
+
+/* Estilos específicos para la página de login */
+.login-page {
+    background-color: #333; /* Color de fondo negro */
+    background-image: url('/Content/fondo_login.png'); /* Imagen de fondo */
+    background-size: cover; /* Para que la imagen cubra todo el fondo */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .login-page .body-content {
+        margin-top: 0;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Ajusta los inputs del login */
+    .login-page input {
+        max-width: 100%;
+        width: 100%;
+    }
+
+.login-logo {
+    display: block;
+    margin: 0 auto 10px; /* Centrar el logo y agregar espacio inferior */
+    max-width: 150px; /* Ajustar el tamaño del logo */
+}
