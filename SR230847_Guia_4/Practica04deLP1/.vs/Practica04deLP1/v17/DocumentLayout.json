@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\SR230847_Guia_4\\Practica04deLP1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDD62A90-9332-47A1-9E26-6E37BEF5111A}|Practica04deLP1\\Practica04deLP1.csproj|c:\\users\\jonat\\onedrive\\escritorio\\dsp guias a realizar\\sr230847_guia_4\\practica04delp1\\practica04delp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDD62A90-9332-47A1-9E26-6E37BEF5111A}|Practica04deLP1\\Practica04deLP1.csproj|solutionrelative:practica04delp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDD62A90-9332-47A1-9E26-6E37BEF5111A}|Practica04deLP1\\Practica04deLP1.csproj|C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\SR230847_Guia_4\\Practica04deLP1\\practica04delp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDD62A90-9332-47A1-9E26-6E37BEF5111A}|Practica04deLP1\\Practica04deLP1.csproj|solutionrelative:practica04delp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 316,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 687,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 571,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\SR230847_Guia_4\\Practica04deLP1\\Practica04deLP1\\Form1.cs",
+              "RelativeDocumentMoniker": "Practica04deLP1\\Form1.cs",
+              "ToolTip": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\SR230847_Guia_4\\Practica04deLP1\\Practica04deLP1\\Form1.cs",
+              "RelativeToolTip": "Practica04deLP1\\Form1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwEUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T16:53:18.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\SR230847_Guia_4\\Practica04deLP1\\Practica04deLP1\\Form1.cs",
+              "RelativeDocumentMoniker": "Practica04deLP1\\Form1.cs",
+              "ToolTip": "C:\\Users\\Jonat\\OneDrive\\Escritorio\\DSP GUIAS A REALIZAR\\SR230847_Guia_4\\Practica04deLP1\\Practica04deLP1\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Practica04deLP1\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T23:57:25.872Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
