@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("frmGuia04ejerc2")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Operaciones_matematicas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f74925628972b8ea33c7c71a6206e771ffad223c")]
-[assembly: System.Reflection.AssemblyProductAttribute("frmGuia04ejerc2")]
-[assembly: System.Reflection.AssemblyTitleAttribute("frmGuia04ejerc2")]
+[assembly: System.Reflection.AssemblyProductAttribute("Operaciones_matematicas")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Operaciones_matematicas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
