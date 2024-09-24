@@ -18,6 +18,7 @@ namespace desafio_02_e04
         public Pedidos()
         {
             this.FormasPago = new HashSet<FormasPago>();
+            this.DetallesPedidos = new HashSet<DetallesPedidos>();
         }
     
         public int PedidoId { get; set; }
@@ -31,5 +32,7 @@ namespace desafio_02_e04
         public virtual Empleados Empleados { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<FormasPago> FormasPago { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<DetallesPedidos> DetallesPedidos { get; set; }
     }
 }

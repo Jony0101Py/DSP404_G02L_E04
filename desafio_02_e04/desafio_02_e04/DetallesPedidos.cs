@@ -12,20 +12,15 @@ namespace desafio_02_e04
     using System;
     using System.Collections.Generic;
     
-    public partial class Menus
+    public partial class DetallesPedidos
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Menus()
-        {
-            this.DetallesPedidos = new HashSet<DetallesPedidos>();
-        }
-    
+        public int DetallePedidoId { get; set; }
+        public int PedidoId { get; set; }
         public int MenuId { get; set; }
-        public string NombrePlato { get; set; }
+        public int Cantidad { get; set; }
         public decimal Precio { get; set; }
-        public string Descripcion { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<DetallesPedidos> DetallesPedidos { get; set; }
+        public virtual Menus Menus { get; set; }
+        public virtual Pedidos Pedidos { get; set; }
     }
 }

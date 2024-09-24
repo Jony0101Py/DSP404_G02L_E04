@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="db_temper_trapModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="db_temper_trapModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Clientes">
           <Key>
             <PropertyRef Name="ClienteId" />
@@ -16,6 +16,16 @@
           <Property Name="Telefono" Type="nvarchar" MaxLength="15" />
           <Property Name="Password" Type="nvarchar" MaxLength="255" Nullable="false" />
           <Property Name="Usuario" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DetallesPedidos">
+          <Key>
+            <PropertyRef Name="DetallePedidoId" />
+          </Key>
+          <Property Name="DetallePedidoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PedidoId" Type="int" Nullable="false" />
+          <Property Name="MenuId" Type="int" Nullable="false" />
+          <Property Name="Cantidad" Type="int" Nullable="false" />
+          <Property Name="Precio" Type="decimal" Precision="10" Scale="2" Nullable="false" />
         </EntityType>
         <EntityType Name="Empleados">
           <Key>
@@ -65,6 +75,30 @@
           <Property Name="version" Type="int" />
           <Property Name="definition" Type="varbinary(max)" />
         </EntityType>
+        <Association Name="FK__DetallesP__MenuI__03F0984C">
+          <End Role="Menus" Type="Self.Menus" Multiplicity="1" />
+          <End Role="DetallesPedidos" Type="Self.DetallesPedidos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Menus">
+              <PropertyRef Name="MenuId" />
+            </Principal>
+            <Dependent Role="DetallesPedidos">
+              <PropertyRef Name="MenuId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetallesP__Pedid__02FC7413">
+          <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="1" />
+          <End Role="DetallesPedidos" Type="Self.DetallesPedidos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Pedidos">
+              <PropertyRef Name="PedidoId" />
+            </Principal>
+            <Dependent Role="DetallesPedidos">
+              <PropertyRef Name="PedidoId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK__FormasPag__Pedid__5535A963">
           <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="1" />
           <End Role="FormasPago" Type="Self.FormasPago" Multiplicity="*" />
@@ -103,11 +137,20 @@
         </Association>
         <EntityContainer Name="db_temper_trapModelStoreContainer">
           <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DetallesPedidos" EntityType="Self.DetallesPedidos" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Empleados" EntityType="Self.Empleados" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="FormasPago" EntityType="Self.FormasPago" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Menus" EntityType="Self.Menus" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Pedidos" EntityType="Self.Pedidos" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__DetallesP__MenuI__03F0984C" Association="Self.FK__DetallesP__MenuI__03F0984C">
+            <End Role="Menus" EntitySet="Menus" />
+            <End Role="DetallesPedidos" EntitySet="DetallesPedidos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetallesP__Pedid__02FC7413" Association="Self.FK__DetallesP__Pedid__02FC7413">
+            <End Role="Pedidos" EntitySet="Pedidos" />
+            <End Role="DetallesPedidos" EntitySet="DetallesPedidos" />
+          </AssociationSet>
           <AssociationSet Name="FK__FormasPag__Pedid__5535A963" Association="Self.FK__FormasPag__Pedid__5535A963">
             <End Role="Pedidos" EntitySet="Pedidos" />
             <End Role="FormasPago" EntitySet="FormasPago" />
@@ -121,8 +164,7 @@
             <End Role="Pedidos" EntitySet="Pedidos" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="db_temper_trapModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -167,6 +209,7 @@
           <Property Name="NombrePlato" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Precio" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
           <Property Name="Descripcion" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="DetallesPedidos" Relationship="db_temper_trapModel.FK__DetallesP__MenuI__03F0984C" FromRole="Menus" ToRole="DetallesPedidos" />
         </EntityType>
         <EntityType Name="Pedidos">
           <Key>
@@ -181,6 +224,7 @@
           <NavigationProperty Name="Clientes" Relationship="Self.FK__Pedidos__Cliente__5165187F" FromRole="Pedidos" ToRole="Clientes" />
           <NavigationProperty Name="Empleados" Relationship="Self.FK__Pedidos__Emplead__52593CB8" FromRole="Pedidos" ToRole="Empleados" />
           <NavigationProperty Name="FormasPago" Relationship="Self.FK__FormasPag__Pedid__5535A963" FromRole="Pedidos" ToRole="FormasPago" />
+          <NavigationProperty Name="DetallesPedidos" Relationship="db_temper_trapModel.FK__DetallesP__Pedid__02FC7413" FromRole="Pedidos" ToRole="DetallesPedidos" />
         </EntityType>
         <EntityType Name="sysdiagrams">
           <Key>
@@ -247,7 +291,52 @@
             <End Role="Pedidos" EntitySet="Pedidos" />
             <End Role="FormasPago" EntitySet="FormasPago" />
           </AssociationSet>
+          <EntitySet Name="DetallesPedidos" EntityType="db_temper_trapModel.DetallesPedidos" />
+          <AssociationSet Name="FK__DetallesP__MenuI__03F0984C" Association="db_temper_trapModel.FK__DetallesP__MenuI__03F0984C">
+            <End Role="Menus" EntitySet="Menus" />
+            <End Role="DetallesPedidos" EntitySet="DetallesPedidos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetallesP__Pedid__02FC7413" Association="db_temper_trapModel.FK__DetallesP__Pedid__02FC7413">
+            <End Role="Pedidos" EntitySet="Pedidos" />
+            <End Role="DetallesPedidos" EntitySet="DetallesPedidos" />
+          </AssociationSet>
         </EntityContainer>
+        <EntityType Name="DetallesPedidos">
+          <Key>
+            <PropertyRef Name="DetallePedidoId" />
+          </Key>
+          <Property Name="DetallePedidoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PedidoId" Type="Int32" Nullable="false" />
+          <Property Name="MenuId" Type="Int32" Nullable="false" />
+          <Property Name="Cantidad" Type="Int32" Nullable="false" />
+          <Property Name="Precio" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+          <NavigationProperty Name="Menus" Relationship="db_temper_trapModel.FK__DetallesP__MenuI__03F0984C" FromRole="DetallesPedidos" ToRole="Menus" />
+          <NavigationProperty Name="Pedidos" Relationship="db_temper_trapModel.FK__DetallesP__Pedid__02FC7413" FromRole="DetallesPedidos" ToRole="Pedidos" />
+        </EntityType>
+        <Association Name="FK__DetallesP__MenuI__03F0984C">
+          <End Type="db_temper_trapModel.Menus" Role="Menus" Multiplicity="1" />
+          <End Type="db_temper_trapModel.DetallesPedidos" Role="DetallesPedidos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Menus">
+              <PropertyRef Name="MenuId" />
+            </Principal>
+            <Dependent Role="DetallesPedidos">
+              <PropertyRef Name="MenuId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetallesP__Pedid__02FC7413">
+          <End Type="db_temper_trapModel.Pedidos" Role="Pedidos" Multiplicity="1" />
+          <End Type="db_temper_trapModel.DetallesPedidos" Role="DetallesPedidos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Pedidos">
+              <PropertyRef Name="PedidoId" />
+            </Principal>
+            <Dependent Role="DetallesPedidos">
+              <PropertyRef Name="PedidoId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -317,6 +406,17 @@
                 <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
                 <ScalarProperty Name="version" ColumnName="version" />
                 <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DetallesPedidos">
+            <EntityTypeMapping TypeName="db_temper_trapModel.DetallesPedidos">
+              <MappingFragment StoreEntitySet="DetallesPedidos">
+                <ScalarProperty Name="Precio" ColumnName="Precio" />
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="MenuId" ColumnName="MenuId" />
+                <ScalarProperty Name="PedidoId" ColumnName="PedidoId" />
+                <ScalarProperty Name="DetallePedidoId" ColumnName="DetallePedidoId" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

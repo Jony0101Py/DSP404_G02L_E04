@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Confirmación de Pedido";
+}
+
+<style>
+    body {
+        background-image: url('/Content/fondo_TemperTrap.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+</style>
+
+
+<h2 class="text-success">Pedido Confirmado</h2>
+<p>¡Gracias por su compra! Su pedido ha sido procesado exitosamente.</p>
+
+<!-- Mostrar nombre del cliente -->
+<h4>Nombre del Cliente: <strong>@ViewBag.NombreCliente</strong></h4>
+
+<!-- Mostrar método de pago -->
+<h4>Método de Pago: <strong>@ViewBag.MetodoPago</strong></h4>
+
+<!-- Mostrar total del pedido -->
+<h4>Total: <strong>@ViewBag.Total</strong></h4>
+
+<!-- Botón para regresar al menú -->
+<a href="@Url.Action("Index", "Menus")" class="btn btn-primary">Volver al Menú</a>

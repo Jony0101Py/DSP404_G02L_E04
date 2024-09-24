@@ -1,0 +1,190 @@
+﻿@model IEnumerable<desafio_02_e04.Models.PedidoViewModel>
+
+@{
+    ViewBag.Title = "Lista de Pedidos";
+}
+
+<style>
+    /* Paleta de colores */
+    :root {
+        --primary-color: #ff8c00; /* Naranja suave */
+        --secondary-color: #333333; /* Negro suave */
+        --background-color: #f9f9f9; /* Fondo suave */
+        --text-color: #333333; /* Texto primario */
+        --muted-text: #888888; /* Texto secundario */
+    }
+
+    body {
+        background-image: url('/Content/fondo_TemperTrap.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        font-family: 'Arial', sans-serif;
+        color: var(--text-color);
+    }
+
+ 
+    h2 {
+        color: var(--secondary-color);
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        font-size: 0.9rem;
+        background-color: #f7f7f7; /* Fondo suave a todas las celdas */
+    }
+
+    th {
+        background-color: var(--primary-color);
+        color: #ffffff;
+    }
+
+    td {
+        border-bottom: 1px solid #eeeeee;
+        color: var(--secondary-color);
+    }
+
+        td:last-child {
+            text-align: center;
+        }
+
+    .form-inline {
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .form-group {
+        margin-bottom: 0;
+    }
+
+    .form-control {
+        padding: 5px 10px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .btn-update {
+        background-color: var(--primary-color);
+        color: #ffffff;
+        border: none;
+        padding: 8px 12px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        transition: background-color 0.3s;
+    }
+
+        .btn-update:hover {
+            background-color: #ff9933;
+        }
+
+    .comentario-placeholder {
+        display: block;
+        margin-bottom: 5px;
+        color: var(--muted-text);
+        font-size: 0.85rem;
+    }
+
+    .pedido-item {
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #f7f7f7;
+        border-left: 4px solid var(--primary-color);
+        border-radius: 4px;
+    }
+
+        .pedido-item h4 {
+            margin: 0;
+            color: var(--secondary-color);
+            font-size: 1.1rem;
+        }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0 0;
+    }
+
+        ul li {
+            font-size: 0.9rem;
+            color: var(--muted-text);
+            margin: 5px 0;
+        }
+</style>
+
+<div class="container">
+    <h2>Lista de Pedidos</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Pedido ID</th>
+                <th>Cliente</th>
+                <th>Fecha del Pedido</th>
+                <th>Estado</th>
+                <th>Comentario</th>
+                <th>Detalles</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pedido in Model)
+            {
+                <tr>
+                    <td>@pedido.PedidoId</td>
+                    <td>@pedido.ClienteNombre</td>
+                    <td>@pedido.FechaPedido.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@pedido.Estado</td>
+                    <td>@pedido.Comentario</td>
+                    <td>
+                        <div class="pedido-item">
+                            <h4>Detalles del Pedido</h4>
+                            <ul>
+                                @foreach (var detalle in pedido.Detalles)
+                                {
+                                    <li>@detalle.NombrePlato - Cantidad: @detalle.Cantidad - Precio: @detalle.Precio.ToString("C")</li>
+                                }
+                            </ul>
+                        </div>
+                    </td>
+                    <td>
+                        @using (Html.BeginForm("ActualizarEstado", "Pedidos", FormMethod.Post, new { @class = "form-inline" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="pedidoId" value="@pedido.PedidoId" />
+
+                            <div class="form-group">
+                                <select name="estado" class="form-control">
+                                    <option value="Aceptado" @(pedido.Estado == "Aceptado" ? "selected" : "")>Aceptado</option>
+                                    <option value="En proceso de elaborar" @(pedido.Estado == "En proceso de elaborar" ? "selected" : "")>En proceso de elaborar</option>
+                                    <option value="Entregado al repartidor" @(pedido.Estado == "Entregado al repartidor" ? "selected" : "")>Entregado al repartidor</option>
+                                    <option value="Entregado al cliente" @(pedido.Estado == "Entregado al cliente" ? "selected" : "")>Entregado al cliente</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="comentario" class="form-control" placeholder="Comentario" value="@pedido.Comentario" />
+                            </div>
+
+                            <button type="submit" class="btn-update">Actualizar</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

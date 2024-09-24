@@ -14,6 +14,9 @@
         <AssociationConnector Association="db_temper_trapModel.FK__Pedidos__Cliente__5165187F" ManuallyRouted="false" />
         <AssociationConnector Association="db_temper_trapModel.FK__Pedidos__Emplead__52593CB8" ManuallyRouted="false" />
         <AssociationConnector Association="db_temper_trapModel.FK__FormasPag__Pedid__5535A963" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="db_temper_trapModel.DetallesPedidos" Width="1.5" PointX="7.25" PointY="4.625" />
+        <AssociationConnector Association="db_temper_trapModel.FK__DetallesP__MenuI__03F0984C" />
+        <AssociationConnector Association="db_temper_trapModel.FK__DetallesP__Pedid__02FC7413" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

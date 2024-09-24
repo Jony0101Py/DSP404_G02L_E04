@@ -12,6 +12,16 @@
     <Property Name="Password" Type="nvarchar" MaxLength="255" Nullable="false" />
     <Property Name="Usuario" Type="varchar" MaxLength="50" Nullable="false" />
   </EntityType>
+  <EntityType Name="DetallesPedidos">
+    <Key>
+      <PropertyRef Name="DetallePedidoId" />
+    </Key>
+    <Property Name="DetallePedidoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PedidoId" Type="int" Nullable="false" />
+    <Property Name="MenuId" Type="int" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="Precio" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+  </EntityType>
   <EntityType Name="Empleados">
     <Key>
       <PropertyRef Name="EmpleadoId" />
@@ -60,6 +70,30 @@
     <Property Name="version" Type="int" />
     <Property Name="definition" Type="varbinary(max)" />
   </EntityType>
+  <Association Name="FK__DetallesP__MenuI__03F0984C">
+    <End Role="Menus" Type="Self.Menus" Multiplicity="1" />
+    <End Role="DetallesPedidos" Type="Self.DetallesPedidos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Menus">
+        <PropertyRef Name="MenuId" />
+      </Principal>
+      <Dependent Role="DetallesPedidos">
+        <PropertyRef Name="MenuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetallesP__Pedid__02FC7413">
+    <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="1" />
+    <End Role="DetallesPedidos" Type="Self.DetallesPedidos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pedidos">
+        <PropertyRef Name="PedidoId" />
+      </Principal>
+      <Dependent Role="DetallesPedidos">
+        <PropertyRef Name="PedidoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK__FormasPag__Pedid__5535A963">
     <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="1" />
     <End Role="FormasPago" Type="Self.FormasPago" Multiplicity="*" />
@@ -98,11 +132,20 @@
   </Association>
   <EntityContainer Name="db_temper_trapModelStoreContainer">
     <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DetallesPedidos" EntityType="Self.DetallesPedidos" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Empleados" EntityType="Self.Empleados" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="FormasPago" EntityType="Self.FormasPago" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Menus" EntityType="Self.Menus" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Pedidos" EntityType="Self.Pedidos" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__DetallesP__MenuI__03F0984C" Association="Self.FK__DetallesP__MenuI__03F0984C">
+      <End Role="Menus" EntitySet="Menus" />
+      <End Role="DetallesPedidos" EntitySet="DetallesPedidos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetallesP__Pedid__02FC7413" Association="Self.FK__DetallesP__Pedid__02FC7413">
+      <End Role="Pedidos" EntitySet="Pedidos" />
+      <End Role="DetallesPedidos" EntitySet="DetallesPedidos" />
+    </AssociationSet>
     <AssociationSet Name="FK__FormasPag__Pedid__5535A963" Association="Self.FK__FormasPag__Pedid__5535A963">
       <End Role="Pedidos" EntitySet="Pedidos" />
       <End Role="FormasPago" EntitySet="FormasPago" />

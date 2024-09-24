@@ -1,0 +1,55 @@
+﻿@model IEnumerable<desafio_02_e04.Models.MenuViewModel>
+
+@{
+    ViewBag.Title = "Menú";
+}
+
+<style>
+    body {
+        background-image: url('/Content/fondo_TemperTrap.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+</style>
+
+<h2>Menú</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Imagen</th>
+            <th>Nombre del Plato</th>
+            <th>Precio</th>
+            <th>Descripción</th>
+            <th>Acción</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="@Url.Content("~/Content/Images/" + item.NombrePlato.Replace(" ", "%20") + ".jpg")"
+                         alt="@item.NombrePlato"
+                         style="width: 100px; height: auto;" />
+                </td>
+                <td>@item.NombrePlato</td>
+                <td>@item.Precio.ToString("C")</td>
+                <td>@item.Descripcion</td>
+                <td>
+                    @using (Html.BeginForm("AddToCart", "Menus", FormMethod.Post, new { @class = "form-inline" }))
+                    {
+                        <input type="hidden" name="menuId" value="@item.MenuId" />
+                        <div class="input-group">
+                            <input type="number" name="quantity" value="1" min="1" class="form-control" style="width: 80px;" />
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-primary">Añadir</button>
+                            </span>
+                        </div>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

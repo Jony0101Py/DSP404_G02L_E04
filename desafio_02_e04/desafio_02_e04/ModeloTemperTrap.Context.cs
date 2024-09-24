@@ -31,5 +31,6 @@ namespace desafio_02_e04
         public virtual DbSet<Menus> Menus { get; set; }
         public virtual DbSet<Pedidos> Pedidos { get; set; }
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<DetallesPedidos> DetallesPedidos { get; set; }
     }
 }

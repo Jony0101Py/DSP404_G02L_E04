@@ -30,7 +30,7 @@ namespace desafio_02_e04.Controllers
                 {
                     // Autenticar cliente
                     FormsAuthentication.SetAuthCookie(model.Usuario, false);
-                    return RedirectToAction("Index", "Menu"); // Redirige a la vista del menú para clientes
+                    return RedirectToAction("Index", "Menus"); // Redirige a la vista del menú para clientes
                 }
                 if (empleado != null)
                 {

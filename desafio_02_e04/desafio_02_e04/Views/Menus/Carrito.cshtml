@@ -1,0 +1,64 @@
+﻿@model List<desafio_02_e04.Models.CarritoItem>
+
+@{
+    ViewBag.Title = "Carrito";
+}
+
+
+<style>
+    body {
+        background-image: url('/Content/fondo_TemperTrap.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+</style>
+
+<h2>Carrito de Compras</h2>
+
+@if (Model.Count == 0)
+{
+    <p class="alert alert-info">No tienes ítems en tu carrito.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nombre del Plato</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Total</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.NombrePlato</td>
+                    <td>@item.Precio.ToString("C")</td>
+                    <td>@item.Cantidad</td>
+                    <td>@(item.Precio * item.Cantidad)</td>
+                    <td>
+                        @using (Html.BeginForm("RemoveFromCart", "Menus", FormMethod.Post, new { @class = "form-inline" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="menuId" value="@item.MenuId" />
+                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h3>Total del carrito: @Model.Sum(i => i.Precio * i.Cantidad).ToString("C")</h3>
+
+    using (Html.BeginForm("Checkout", "Order", FormMethod.Post, new { @class = "form-inline" }))
+    {
+        @Html.AntiForgeryToken()
+        <button type="submit" class="btn btn-success">Proceder al Pago</button>
+    }
+}
+

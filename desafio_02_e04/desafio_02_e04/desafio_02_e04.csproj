@@ -101,6 +101,13 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\fondo_login.png" />
+    <Content Include="Content\fondo_TemperTrap.png" />
+    <Content Include="Content\Images\Ensalada César.jpg" />
+    <Content Include="Content\Images\Hamburguesa Clásica.jpg" />
+    <Content Include="Content\Images\Pasta Carbonara.jpg" />
+    <Content Include="Content\Images\Pizza Margarita.jpg" />
+    <Content Include="Content\Images\Sopa de Mariscos.jpg" />
+    <Content Include="Content\Images\Tacos al Pastor.jpg" />
     <Content Include="Content\Logo_TemperTrap.png" />
     <Content Include="Content\Logo_TemperTrap1.png" />
     <Content Include="Content\Site.css" />
@@ -130,6 +137,12 @@
       <DependentUpon>ModeloTemperTrap.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\MenusController.cs" />
+    <Compile Include="Controllers\OrderController.cs" />
+    <Compile Include="Controllers\PedidosController.cs" />
+    <Compile Include="DetallesPedidos.cs">
+      <DependentUpon>ModeloTemperTrap.tt</DependentUpon>
+    </Compile>
     <Compile Include="Empleados.cs">
       <DependentUpon>ModeloTemperTrap.tt</DependentUpon>
     </Compile>
@@ -157,9 +170,15 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ModeloTemperTrap.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\CarritoItem.cs" />
     <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\DetallePedidoViewModel.cs" />
     <Compile Include="Models\Empleado.cs" />
+    <Compile Include="Models\FormaPagoModel.cs" />
     <Compile Include="Models\LoginVIewModel.cs" />
+    <Compile Include="Models\MenuViewModel.cs" />
+    <Compile Include="Models\PedidoModel.cs" />
+    <Compile Include="Models\PedidoViewModel.cs" />
     <Compile Include="Pedidos.cs">
       <DependentUpon>ModeloTemperTrap.tt</DependentUpon>
     </Compile>
@@ -185,6 +204,11 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Menus\Index.cshtml" />
+    <Content Include="Views\Menus\Carrito.cshtml" />
+    <Content Include="Views\Order\Checkout.cshtml" />
+    <Content Include="Views\Order\Confirmacion.cshtml" />
+    <Content Include="Views\Pedidos\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

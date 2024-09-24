@@ -1,0 +1,52 @@
+﻿@model List<desafio_02_e04.Models.CarritoItem>
+
+@{
+    ViewBag.Title = "Checkout";
+}
+
+<style>
+    body {
+        background-image: url('/Content/fondo_TemperTrap.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+</style>
+
+<h2>Checkout</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Plato</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NombrePlato</td>
+                <td>@item.Cantidad</td>
+                <td>@item.Precio.ToString("C")</td>
+                <td>@(item.Cantidad * item.Precio)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Total: @Model.Sum(x => x.Cantidad * x.Precio).ToString("C")</h3>
+
+<form method="post" action="@Url.Action("ProcessCheckout", "Order")" class="form-inline">
+    <div class="form-group">
+        <label for="metodoPago" class="sr-only">Método de Pago</label>
+        <select id="metodoPago" name="metodoPago" class="form-control" required>
+            <option value="">Seleccione un método</option>
+            <option value="Tarjeta">Tarjeta</option>
+            <option value="Efectivo">Efectivo</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary ml-2">Confirmar Pedido</button>
+</form>
