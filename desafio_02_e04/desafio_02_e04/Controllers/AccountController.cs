@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿// - comentado por: sc231259
+
+using System.Linq;
 using System.Web.Mvc;
 using System.Web.Security;
 using desafio_02_e04.Models;
@@ -7,7 +9,7 @@ namespace desafio_02_e04.Controllers
 {
     public class AccountController : Controller
     {
-        private db_temper_trapEntities db = new db_temper_trapEntities(); // Contexto de datos generado por EF
+        private db_temper_trapEntities db = new db_temper_trapEntities(); // Contexto de datos generado por EF (entity framework)
 
         // Vista de Login
         public ActionResult Login()

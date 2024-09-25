@@ -1,4 +1,6 @@
-﻿using System;
+﻿//- comentado por: sc231259
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -35,14 +37,14 @@ namespace desafio_02_e04.Controllers
                 return RedirectToAction("Index", "Menus");
             }
 
-            // Obtener el ID del cliente desde la sesión o base de datos (esto depende de cómo manejes la autenticación)
-            int clienteId = 1;  // Suponiendo que el cliente esté logueado y tengas su ID
+            // Obtener el ID del cliente desde la sesión o base de datos
+            int clienteId = 1;  // Suponiendo que el cliente esté logueado y su ID es 1
 
             // Crear un nuevo pedido
             var pedido = new Pedidos
             {
                 ClienteId = clienteId,
-                Estado = "Aceptado",  // Puedes personalizar este estado según tu flujo de negocio
+                Estado = "Aceptado",  
                 FechaPedido = DateTime.Now,
                 Comentario = "Pedido realizado con éxito"
             };

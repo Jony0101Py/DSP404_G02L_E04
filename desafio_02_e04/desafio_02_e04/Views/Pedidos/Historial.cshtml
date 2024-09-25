@@ -1,0 +1,94 @@
+﻿<!-- - comentado por: sc231259 -->
+
+@model IEnumerable<desafio_02_e04.Models.HistorialPedidoViewModel>
+
+@{
+    ViewBag.Title = "Historial de Pedidos";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Historial de Pedidos</h2>
+    <p class="text-muted mb-4 custom-text-info">Aquí puedes encontrar cada una de tus compras realizadas.</p>
+
+    @if (TempData["MensajeConfirmacion"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["MensajeConfirmacion"]
+        </div>
+    }
+
+    <table class="table table-bordered table-striped custom-table">
+        <thead class="thead-dark">
+            <tr>
+                <th>Pedido ID</th>
+                <th>Cliente</th>
+                <th>Fecha</th>
+                <th>Estado</th>
+                <th>Comentario del Empleado</th>
+                <th>Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pedido in Model)
+            {
+                <tr>
+                    <td>@pedido.PedidoId</td>
+                    <td>@pedido.ClienteNombre</td>
+                    <td>@pedido.FechaPedido.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@pedido.Estado</td>
+                    <td>@pedido.ComentarioEmpleado</td>
+                    <td>
+                        <button class="btn btn-custom-orange btn-sm" data-toggle="collapse" data-target="#detalles-@pedido.PedidoId">
+                            <i class="fas fa-info-circle"></i> Ver Detalles
+                        </button>
+                        <div id="detalles-@pedido.PedidoId" class="collapse mt-2">
+                            <ul class="list-group">
+                                @foreach (var detalle in pedido.Detalles)
+                                {
+                                    <li class="list-group-item">
+                                        @detalle.NombrePlato - Cantidad: @detalle.Cantidad - Precio: @detalle.Precio.ToString("C")
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Bootstrap y los jQuery Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<style>
+
+    body {
+        background-image: url('/Content/fondo_TemperTrap.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .btn-custom-orange {
+        background-color: #fd7e14; /* Color naranja */
+        border: none;
+        color: white;
+    }
+
+        .btn-custom-orange:hover {
+            background-color: #e76f00; /* Naranja oscuro para el hover */
+            color: white;
+        }
+
+    .custom-text-info {
+        color: #fd7e14; /* Color naranja */
+        font-size: 0.9rem; /* Tamaño de texto más pequeño */
+    }
+
+    .custom-table {
+        background-color: rgba(255, 165, 0, 0.1); /* Naranja suave con opacidad */
+    }
+</style>

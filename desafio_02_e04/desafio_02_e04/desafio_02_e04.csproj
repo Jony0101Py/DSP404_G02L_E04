@@ -175,6 +175,7 @@
     <Compile Include="Models\DetallePedidoViewModel.cs" />
     <Compile Include="Models\Empleado.cs" />
     <Compile Include="Models\FormaPagoModel.cs" />
+    <Compile Include="Models\HistorialPedidoViewModel.cs" />
     <Compile Include="Models\LoginVIewModel.cs" />
     <Compile Include="Models\MenuViewModel.cs" />
     <Compile Include="Models\PedidoModel.cs" />
@@ -209,6 +210,7 @@
     <Content Include="Views\Order\Checkout.cshtml" />
     <Content Include="Views\Order\Confirmacion.cshtml" />
     <Content Include="Views\Pedidos\Index.cshtml" />
+    <Content Include="Views\Pedidos\Historial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

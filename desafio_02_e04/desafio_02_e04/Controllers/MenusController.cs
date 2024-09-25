@@ -1,4 +1,6 @@
-﻿using System;
+﻿// - comentado por: sc231259
+
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -78,7 +80,7 @@ namespace desafio_02_e04.Controllers
                 }
                 else
                 {
-                    // Si el plato no se encuentra, podrías agregar una lógica de manejo de errores aquí
+                    // Si el plato no se encuentra
                     TempData["Error"] = "Plato no encontrado.";
                 }
             }

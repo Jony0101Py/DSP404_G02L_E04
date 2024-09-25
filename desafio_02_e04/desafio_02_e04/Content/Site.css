@@ -1,4 +1,6 @@
-﻿/* Estilos Generales */
+﻿
+/* Estilos Generales - comentado por: sc231259*/
+
 body {
     background-color: #f8f9fa; /* Color de fondo claro para el body */
     padding-top: 50px;
@@ -11,8 +13,21 @@ body {
     background-color: #000000; /* Negro para la barra de navegación */
 }
 
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway', sans-serif; /* Aplica la fuente Raleway(tipo de letra) */
+}
+
 .navbar-brand img {
-    max-height: 50px; /* Ajusta el tamaño del logo */
+    max-height: 50px;
+}
+
+.navbar-brand .brand-text {
+    font-size: 1.5rem; /* Tamaño del texto del logo */
+    font-weight: 700; /* Peso del texto (esto es opcional) */
+    margin-left: 10px; /* Espacio entre el logo y el texto */
+    color: #ffffff; /* Color del texto, se puede ajustar según el diseño */
 }
 
 .nav-link {

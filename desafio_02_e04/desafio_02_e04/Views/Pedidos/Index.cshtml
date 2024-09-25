@@ -1,10 +1,33 @@
-﻿@model IEnumerable<desafio_02_e04.Models.PedidoViewModel>
+﻿<!-- - comentado por: sc231259 -->
+
+@model IEnumerable<desafio_02_e04.Models.PedidoViewModel>
 
 @{
     ViewBag.Title = "Lista de Pedidos";
 }
 
+<!-- Mostrar mensaje de confirmación -->
+@if (TempData["MensajeConfirmacion"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["MensajeConfirmacion"]
+    </div>
+}
+
 <style>
+    .alert {
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    .alert-success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+    }
+
     /* Paleta de colores */
     :root {
         --primary-color: #ff8c00; /* Naranja suave */
@@ -23,7 +46,6 @@
         color: var(--text-color);
     }
 
- 
     h2 {
         color: var(--secondary-color);
         font-size: 1.8rem;
@@ -41,7 +63,6 @@
         padding: 10px;
         text-align: left;
         font-size: 0.9rem;
-        background-color: #f7f7f7; /* Fondo suave a todas las celdas */
     }
 
     th {
@@ -54,9 +75,18 @@
         color: var(--secondary-color);
     }
 
-        td:last-child {
-            text-align: center;
-        }
+    /* Alternar el color de fondo de las filas */
+    table tbody tr:nth-child(even) {
+        background-color: #f2f2f2; /* Color para las filas pares */
+    }
+
+    table tbody tr:nth-child(odd) {
+        background-color: #ffffff; /* Color para las filas impares */
+    }
+
+    td:last-child {
+        text-align: center;
+    }
 
     .form-inline {
         display: flex;
@@ -90,6 +120,12 @@
 
         .btn-update:hover {
             background-color: #ff9933;
+        }
+
+        .btn-update i {
+            font-size: 1.2rem;
+            color: #ffffff;
+            margin-right: 5px; /* Espacio entre el ícono y el texto */
         }
 
     .comentario-placeholder {
@@ -180,7 +216,9 @@
                                 <input type="text" name="comentario" class="form-control" placeholder="Comentario" value="@pedido.Comentario" />
                             </div>
 
-                            <button type="submit" class="btn-update">Actualizar</button>
+                            <button type="submit" class="btn-update">
+                                <i class="fas fa-edit"></i> Actualizar
+                            </button>
                         }
                     </td>
                 </tr>

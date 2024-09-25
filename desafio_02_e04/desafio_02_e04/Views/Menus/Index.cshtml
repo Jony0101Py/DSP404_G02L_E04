@@ -1,4 +1,6 @@
-﻿@model IEnumerable<desafio_02_e04.Models.MenuViewModel>
+﻿<!-- - comentado por: sc231259 -->
+
+@model IEnumerable<desafio_02_e04.Models.MenuViewModel>
 
 @{
     ViewBag.Title = "Menú";
@@ -10,6 +12,71 @@
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
+    }
+
+    h2 {
+        text-align: center;
+        color: #fd7e14; /* Color naranja para el título */
+        margin-bottom: 20px;
+    }
+
+    .table {
+        background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    }
+
+        .table thead {
+            background-color: #fd7e14; /* Color naranja para el encabezado */
+            color: white;
+        }
+
+        .table th, .table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .table img {
+            width: 100px;
+            height: auto;
+            border-radius: 4px; /* Bordes redondeados */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra alrededor de las imágenes */
+        }
+
+    .btn-primary {
+        background-color: #fd7e14; /* Color naranja para el botón */
+        border-color: #fd7e14;
+        color: #ffffff; /* Color blanco para el texto del botón */
+    }
+
+        .btn-primary:hover {
+            background-color: #e76f00; /* Naranja oscuro para el hover */
+            border-color: #e76f00;
+        }
+
+        .btn-primary i {
+            color: #ffffff; /* Color blanco para el icono dentro del botón */
+        }
+
+    .input-group input[type="number"] {
+        width: 80px;
+    }
+
+    .input-group-btn {
+        margin-left: 10px;
+    }
+
+    .form-inline {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .table i {
+        font-size: 18px;
+        color: #ffffff; /* Color naranja para los iconos fuera del botón */
+        cursor: pointer;
     }
 </style>
 
@@ -31,8 +98,7 @@
             <tr>
                 <td>
                     <img src="@Url.Content("~/Content/Images/" + item.NombrePlato.Replace(" ", "%20") + ".jpg")"
-                         alt="@item.NombrePlato"
-                         style="width: 100px; height: auto;" />
+                         alt="@item.NombrePlato" />
                 </td>
                 <td>@item.NombrePlato</td>
                 <td>@item.Precio.ToString("C")</td>
@@ -42,9 +108,11 @@
                     {
                         <input type="hidden" name="menuId" value="@item.MenuId" />
                         <div class="input-group">
-                            <input type="number" name="quantity" value="1" min="1" class="form-control" style="width: 80px;" />
+                            <input type="number" name="quantity" value="1" min="1" class="form-control" />
                             <span class="input-group-btn">
-                                <button type="submit" class="btn btn-primary">Añadir</button>
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fas fa-cart-plus"></i> Añadir
+                                </button>
                             </span>
                         </div>
                     }

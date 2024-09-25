@@ -1,4 +1,6 @@
-﻿@{
+﻿<!-- - comentado por: sc231259 -->
+
+@{
     ViewBag.Title = "Confirmación de Pedido";
 }
 
@@ -8,21 +10,66 @@
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
+        color: #333; /* Color de texto por defecto */
+    }
+
+
+    h2 {
+        text-align: center;
+        color: #28a745; /* Color verde para el título */
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        margin: 15px 0;
+        font-size: 18px;
+    }
+
+        h4 strong {
+            color: #333; /* Color de texto para los valores */
+        }
+
+    .btn-primary {
+        background-color: #007bff; /* Azul para el botón */
+        border-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-weight: bold;
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+    .message {
+        text-align: center;
+        font-size: 16px;
+        color: #555; /* Color gris oscuro para el texto del mensaje */
+        margin: 20px 0;
     }
 </style>
 
+<div class="container">
+    <h2>Pedido Confirmado</h2>
+    <p class="message">¡Gracias por su compra! Su pedido ha sido procesado exitosamente.</p>
 
-<h2 class="text-success">Pedido Confirmado</h2>
-<p>¡Gracias por su compra! Su pedido ha sido procesado exitosamente.</p>
+    <!-- Mostrar nombre del cliente -->
+    <h4>Nombre del Cliente: <strong>@ViewBag.NombreCliente</strong></h4>
 
-<!-- Mostrar nombre del cliente -->
-<h4>Nombre del Cliente: <strong>@ViewBag.NombreCliente</strong></h4>
+    <!-- Mostrar método de pago -->
+    <h4>Método de Pago: <strong>@ViewBag.MetodoPago</strong></h4>
 
-<!-- Mostrar método de pago -->
-<h4>Método de Pago: <strong>@ViewBag.MetodoPago</strong></h4>
+    <!-- Mostrar total del pedido -->
+    <h4>Total: <strong>@ViewBag.Total</strong></h4>
 
-<!-- Mostrar total del pedido -->
-<h4>Total: <strong>@ViewBag.Total</strong></h4>
-
-<!-- Botón para regresar al menú -->
-<a href="@Url.Action("Index", "Menus")" class="btn btn-primary">Volver al Menú</a>
+    <!-- Botón para regresar al menú -->
+    <a href="@Url.Action("Index", "Menus")" class="btn btn-primary">
+        <i class="fas fa-home"></i> Volver al Menú
+    </a>
+</div>

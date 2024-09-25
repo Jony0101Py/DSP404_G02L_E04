@@ -1,4 +1,6 @@
-﻿@model desafio_02_e04.Models.LoginVIewModel
+﻿ <!-- comentado por: sc231259 -->
+
+@model desafio_02_e04.Models.LoginVIewModel
 
 @{
     ViewBag.Title = "Login";
@@ -51,6 +53,7 @@
 </div>
 
 <!-- Script para el spinner -->
-<script>$('form').on('submit', function() {
+<script>
+    $('form').on('submit', function () {
         $('#spinner').removeClass('d-none'); // Muestra el spinner al hacer submit
     });</script>
