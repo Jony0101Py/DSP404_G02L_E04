@@ -1,0 +1,10 @@
+C:\Users\CRISTIAN\Desktop\Desafio1_DSP_Lab\CajeroElectronico\bin\Debug\CajeroElectronico.exe.config
+C:\Users\CRISTIAN\Desktop\Desafio1_DSP_Lab\CajeroElectronico\bin\Debug\CajeroElectronico.exe
+C:\Users\CRISTIAN\Desktop\Desafio1_DSP_Lab\CajeroElectronico\bin\Debug\CajeroElectronico.pdb
+C:\Users\CRISTIAN\Desktop\Desafio1_DSP_Lab\CajeroElectronico\obj\Debug\CajeroElectronico.csproj.AssemblyReference.cache
+C:\Users\CRISTIAN\Desktop\Desafio1_DSP_Lab\CajeroElectronico\obj\Debug\CajeroElectronico.Form1.resources
+C:\Users\CRISTIAN\Desktop\Desafio1_DSP_Lab\CajeroElectronico\obj\Debug\CajeroElectronico.Properties.Resources.resources
+C:\Users\CRISTIAN\Desktop\Desafio1_DSP_Lab\CajeroElectronico\obj\Debug\CajeroElectronico.csproj.GenerateResource.cache
+C:\Users\CRISTIAN\Desktop\Desafio1_DSP_Lab\CajeroElectronico\obj\Debug\CajeroElectronico.csproj.CoreCompileInputs.cache
+C:\Users\CRISTIAN\Desktop\Desafio1_DSP_Lab\CajeroElectronico\obj\Debug\CajeroElectronico.exe
+C:\Users\CRISTIAN\Desktop\Desafio1_DSP_Lab\CajeroElectronico\obj\Debug\CajeroElectronico.pdb
