@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0a7002558ce3494aa39fbd915c3cf4c2" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="EmpresaPlazaLibreModel1.Categories" Width="1.5" PointX="1.375" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmpresaPlazaLibreModel1.Products" Width="1.5" PointX="3.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmpresaPlazaLibreModel1.Suppliers" Width="1.5" PointX="7" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="EmpresaPlazaLibreModel1.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="EmpresaPlazaLibreModel1.FK_Products_Suppliers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
