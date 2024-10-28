@@ -1,0 +1,2 @@
+C:\Users\MINED\Desktop\Guia9\SitioWeb9_PM241595\SitioWeb9_PM241595\obj\Debug\SitioWeb9_PM241595.csproj.AssemblyReference.cache
+C:\Users\MINED\Desktop\Guia9\SitioWeb9_PM241595\SitioWeb9_PM241595\obj\Debug\SitioWeb9_PM241595.csproj.CoreCompileInputs.cache
